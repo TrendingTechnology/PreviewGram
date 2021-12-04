@@ -1,10 +1,10 @@
 ![PreviewGram Cover](./assets/PreviewGram%20Banner.svg)
 
-<h1 style="text-align:center;">Private PreviewGram</h1>
+<h1 align="center">Private PreviewGram</h1>
 
-<h2 style="text-align:center;">Run away from Metadata</h2>
+<h2 align="center">Run away from Metadata</h2>
 
-> [Follow on Telegram!](https://t.me/previewgram)
+[![Follow PreviewGram](./assets/follow_on_telegram.png)](https://t.me/previewgram)
 
 > [⚠️] - Warning:
 > 
@@ -164,12 +164,12 @@ If you're a Dev (or not), help PreviewGram forking and making pull requests. Don
   - [Law Enforcement Authorities](https://telegram.org/privacy#8-3-law-enforcement-authorities)
 - In 2020, Telegram suffered a data leak:
   - Source: [Millions of Telegram Users’ Data Exposed on Darknet - CoinTelegraph](https://cointelegraph.com/news/millions-of-telegram-userss-data-exposed-on-darknet)
-  - It isn't a Telegram specific problem [Read `Osint Problems`], because: “Unfortunately, any contacts-based app faces the challenge of malicious users trying to upload many phone numbers and build databases that match them with user IDs – like this one.” - Telegram representative to CoinTelegraph
+  - It isn't a Telegram specific problem Read [`Osint Problems`](#osint-problems), because: “Unfortunately, any contacts-based app faces the challenge of malicious users trying to upload many phone numbers and build databases that match them with user IDs – like this one.” - Telegram representative to CoinTelegraph
   - **Tip:** hide your phone number on Telegram's configurations.
 - Telegram added Group Read Receipts:
   - Source: [Read Receipts in Small Groups - Telegram](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups)
 
-> As any Social Network app, Telegram suffers with Osint (Open-Source Intelligence), be caution with the information that you exposes publicly about yourself!
+> As any Social Network app, Telegram suffers with [Osint](#osint-problems) (Open-Source Intelligence), be caution with the information that you exposes publicly about yourself!
 
 ## Osint Problems:
 
