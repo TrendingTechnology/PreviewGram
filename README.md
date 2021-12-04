@@ -45,6 +45,21 @@
 
 Or [Download Last Release](https://github.com/RickBarretto/PreviewGram/releases/)
 
+
+### Running without install
+
+- Clone this project
+```
+git clone https://github.com/RickBarretto/PreviewGram.git
+```
+
+- Or [Download Source Code](https://github.com/RickBarretto/PreviewGram/archive/refs/heads/main.zip)
+
+- On repository folder, run:
+```
+pip -m test_application.py
+```
+
 ## Features
 
 ![PreviewGram Screenshot](./assets/ppg_printsc.png)
