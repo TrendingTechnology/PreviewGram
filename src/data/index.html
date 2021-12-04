@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+</head>
+<style>
+
+:root {
+    --accent: #448aff;
+    --dark: #232629;
+    --width: 100vw;
+    --height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    Oxygen,
+    'Segoe UI',
+    Ubuntu,
+    'Helvetica Neue',
+    Roboto, 
+    Cantarell, 
+    'Open Sans', 
+    sans-serif;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.container {
+    background-color: var(--dark);
+    width: 100%; height: 100%;
+    overflow: hidden;
+}
+
+header,
+header img {
+    width: var(--width);
+}
+
+main {
+    height: 280px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2, ul {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+ul {
+    padding-left: 1rem;
+    list-style:none;
+    word-wrap: break-word;
+}
+
+li {
+    padding-top: .5rem;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    transform: translateY(5px);
+    text-align: center;
+    background-color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <img src="./PreviewGram Banner.png" alt="PreviewGram Banner">
+        </header>
+        <main>
+            <div class="why">
+                <h2>Why use it?</h2>
+                <ul>
+                    <li>It's free and OpenSource</li>
+                    <li>Run away from metadada collected</li>
+                    <li>Save your favorites channels</li>
+                    <li>No account required</li>
+                </ul>
+            </div>
+            <div class="vpn">
+                <h2>Hide Yourself</h2>
+                <ul>
+                    <li>Use a good VPN to hide your IP</li>
+                    <li>If you prefer, use Tor > instructions</li>
+                </ul>
+            </div>
+            <div class="more">
+                <h2>More Information</h2>
+                <ul>
+                    <li>Follow PreviewGram on Github for More Instructions</li>
+                    <li>Follow PreviewGram on Telegram!</li>
+                    <li>Read about PreviewGram's limitations</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>
+        PreviewGram License: LGPL // Theme License: BSD 2-Clause "Simplified" by Copyright (c) 2020, GCPDS
+        </p>
+    </footer>
+</body>
+</html>
