@@ -11,6 +11,7 @@
 > [⚠️] - Warning:
 > 
 > USE A **VPN** TO HIDE YOUR IP
+> **IT'S IN TEST**
 
 > PreviewGram is under LGPL License
 > 
@@ -30,6 +31,19 @@
 > [⚠️] - Warning
 >
 > If you don't enabled Github's JavaScript, go to [`Telegram Privacy Issues`](#telegram-privacy-issues) Topic to understand more.
+
+## How to install
+
+```bash
+> pip install -r requirements.txt
+> py -m build
+> pip install dist/Private\ PreviewGram-1.1.tar.gz
+```
+
+> [⚠️] - Note
+> If you're in another version, change the ``1.1`` for the current version.
+
+Or [Download Last Release](https://github.com/RickBarretto/PreviewGram/releases/)
 
 ## Features
 
