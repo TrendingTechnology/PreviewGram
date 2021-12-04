@@ -45,6 +45,9 @@ class Engine(QWebEngineView):
     def __privacy_config(self):
 
         self.page().settings().setAttribute(QWebEngineSettings.JavascriptEnabled, False)
+        self.page().profile().clearHttpCache()
+        self.page().profile().isOffTheRecord()
+        self.page().profile().setPersistentStoragePath("")
         self.page().profile().setHttpUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36")
 
     def __config_widget(self):
@@ -59,7 +62,8 @@ class Engine(QWebEngineView):
 
     def loading(self):
         self.mainWin.setCursor(QCursor(Qt.BusyCursor))
-
+        self.page().profile().clearHttpCache()
+        self.page().profile().clearAllVisitedLinks()
 
     def loaded(self):
         self.mainWin.setCursor(QCursor(Qt.OpenHandCursor))
@@ -70,6 +74,8 @@ class Engine(QWebEngineView):
 
 
     def url_changed(self):
+        self.page().profile().clearHttpCache()
+        self.page().profile().clearAllVisitedLinks()
         url = self._url
         print("old:",url)
 
