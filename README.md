@@ -4,7 +4,9 @@
 
 <h2 align="center">Run away from Metadata</h2>
 
-[![Follow PreviewGram](./assets/follow_on_telegram.png)](https://t.me/previewgram)
+<a href="https://t.me/previewgram" align="center">
+<img src="./assets/follow_on_telegram.png" width="300" align="center">
+</a>
 
 > [⚠️] - Warning:
 > 
