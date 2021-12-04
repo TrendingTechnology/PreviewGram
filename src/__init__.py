@@ -8,12 +8,12 @@ from PySide6.QtGui import QCursor
 
 from qt_material import apply_stylesheet
 
-from model.db import Model
-from model.page import Page
-from ui import channel
-from ui.ui import *
-from ui.channel import ChannelDialog, Update
-from ui.components.chan_list import ChannelList as SideBar
+from .model.db import Model
+from .model.page import Page
+from .ui import channel
+from .ui.ui import *
+from .ui.channel import ChannelDialog, Update
+from .ui.components.chan_list import ChannelList as SideBar
 
 class Window(QMainWindow):
 
