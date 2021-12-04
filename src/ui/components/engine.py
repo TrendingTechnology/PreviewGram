@@ -5,7 +5,7 @@ from PySide6.QtCore import QUrl, Qt
 
 #-- Importing Web QT modules
 from PySide6.QtWebEngineWidgets import QWebEngineView
-from PySide6.QtWebEngineCore import QWebEngineSettings
+from PySide6.QtWebEngineCore import QWebEngineSettings, QWebEngineProfile
 
 
 #-- Widget
@@ -48,6 +48,7 @@ class Engine(QWebEngineView):
         self.page().profile().clearHttpCache()
         self.page().profile().isOffTheRecord()
         self.page().profile().setPersistentStoragePath("")
+        self.page().profile().setPersistentCookiesPolicy(QWebEngineProfile.NoPersistentCookies)
         self.page().profile().setHttpUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36")
 
     def __config_widget(self):
